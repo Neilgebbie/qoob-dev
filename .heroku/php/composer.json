@@ -1,0 +1,462 @@
+{
+    "config": {
+        "cache-files-ttl": 0,
+        "discard-changes": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": false,
+    "provide": {
+        "heroku-sys\/cedar": "14.2018.01.16"
+    },
+    "require": {
+        "composer.json\/composer.lock": "dev-a839151c54d1fb9a82e34b6ec900e4ce",
+        "composer\/ca-bundle": "1.0.8",
+        "composer\/composer": "1.5.2",
+        "composer\/semver": "1.4.2",
+        "composer\/spdx-licenses": "1.1.6",
+        "johnpbloch\/wordpress": "4.8.2",
+        "johnpbloch\/wordpress-core": "4.8.2",
+        "justinrainbow\/json-schema": "5.2.4",
+        "mustache\/mustache": "v2.12.0",
+        "nb\/oxymel": "v0.1.0",
+        "oscarotero\/env": "v1.1.0",
+        "predis\/predis": "v1.1.1",
+        "psr\/container": "1.0.0",
+        "psr\/log": "1.0.2",
+        "rmccue\/requests": "v1.7.0",
+        "roots\/wp-password-bcrypt": "1.0.0",
+        "seld\/cli-prompt": "1.0.3",
+        "seld\/jsonlint": "1.6.1",
+        "seld\/phar-utils": "1.0.1",
+        "symfony\/config": "v3.3.6",
+        "symfony\/console": "v3.3.6",
+        "symfony\/debug": "v3.3.6",
+        "symfony\/dependency-injection": "v3.3.6",
+        "symfony\/event-dispatcher": "v3.3.6",
+        "symfony\/filesystem": "v3.3.6",
+        "symfony\/finder": "v3.3.6",
+        "symfony\/polyfill-mbstring": "v1.5.0",
+        "symfony\/process": "v3.3.6",
+        "symfony\/translation": "v3.3.6",
+        "symfony\/yaml": "v3.3.6",
+        "vlucas\/phpdotenv": "v2.4.0",
+        "wp-cli\/mustangostang-spyc": "0.6.3",
+        "wp-cli\/php-cli-tools": "v0.11.7",
+        "wp-cli\/wp-cli": "v1.3.0",
+        "heroku-sys\/apache": "^2.4.10",
+        "heroku-sys\/nginx": "~1.8.0"
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "path",
+            "url": "\/app\/tmp\/buildpacks\/5a80f8ce685a6790b7305c03a5e32a1a78f6000d2ebffe427ebd0c37f1c14ac5265cf09760b12c076dddb542a0151c03bdd63259d0cecae8207109106aa16695\/support\/installer\/",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "composer",
+            "url": "https:\/\/lang-php.s3.amazonaws.com\/dist-cedar-14-stable\/"
+        },
+        {
+            "type": "package",
+            "package": [
+                {
+                    "type": "metapackage",
+                    "name": "composer\/ca-bundle",
+                    "version": "1.0.8",
+                    "require": {
+                        "heroku-sys\/ext-openssl": "*",
+                        "heroku-sys\/ext-pcre": "*",
+                        "heroku-sys\/php": "^5.3.2 || ^7.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "composer\/composer",
+                    "version": "1.5.2",
+                    "require": {
+                        "heroku-sys\/php": "^5.3.2 || ^7.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "composer\/semver",
+                    "version": "1.4.2",
+                    "require": {
+                        "heroku-sys\/php": "^5.3.2 || ^7.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "composer\/spdx-licenses",
+                    "version": "1.1.6",
+                    "require": {
+                        "heroku-sys\/php": "^5.3.2 || ^7.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "johnpbloch\/wordpress",
+                    "version": "4.8.2",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.2"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "johnpbloch\/wordpress-core",
+                    "version": "4.8.2",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.2"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "justinrainbow\/json-schema",
+                    "version": "5.2.4",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.3"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "mustache\/mustache",
+                    "version": "v2.12.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.2.4"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "nb\/oxymel",
+                    "version": "v0.1.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.2.4"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "oscarotero\/env",
+                    "version": "v1.1.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.2"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "predis\/predis",
+                    "version": "v1.1.1",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "psr\/container",
+                    "version": "1.0.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "psr\/log",
+                    "version": "1.0.2",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "rmccue\/requests",
+                    "version": "v1.7.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.2"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "roots\/wp-password-bcrypt",
+                    "version": "1.0.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "seld\/cli-prompt",
+                    "version": "1.0.3",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "seld\/jsonlint",
+                    "version": "1.6.1",
+                    "require": {
+                        "heroku-sys\/php": "^5.3 || ^7.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "seld\/phar-utils",
+                    "version": "1.0.1",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/config",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/console",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/debug",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/dependency-injection",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/event-dispatcher",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/filesystem",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/finder",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/polyfill-mbstring",
+                    "version": "v1.5.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.3"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/process",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/translation",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "symfony\/yaml",
+                    "version": "v3.3.6",
+                    "require": {
+                        "heroku-sys\/php": ">=5.5.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "vlucas\/phpdotenv",
+                    "version": "v2.4.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.9"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "wp-cli\/mustangostang-spyc",
+                    "version": "0.6.3",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.1"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "wp-cli\/php-cli-tools",
+                    "version": "v0.11.7",
+                    "require": {
+                        "heroku-sys\/php": ">= 5.3.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "wp-cli\/wp-cli",
+                    "version": "v1.3.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.29"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "composer.json\/composer.lock",
+                    "version": "dev-a839151c54d1fb9a82e34b6ec900e4ce",
+                    "require": {
+                        "heroku-sys\/php": ">=7.0",
+                        "heroku-sys\/ext-gettext": "*"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                },
+                {
+                    "type": "metapackage",
+                    "name": "squizlabs\/php_codesniffer",
+                    "version": "3.0.2",
+                    "require": {
+                        "heroku-sys\/ext-simplexml": "*",
+                        "heroku-sys\/ext-tokenizer": "*",
+                        "heroku-sys\/ext-xmlwriter": "*",
+                        "heroku-sys\/php": ">=5.4.0"
+                    },
+                    "replace": [],
+                    "provide": [],
+                    "conflict": []
+                }
+            ]
+        }
+    ]
+}

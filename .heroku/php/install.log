@@ -1,0 +1,14 @@
+Loading composer repositories with package information
+Updating dependencies
+Package operations: 38 installs, 0 updates, 0 removals
+  - Installing heroku/installer-plugin (1.3.0): Mirroring from /app/tmp/buildpacks/5a80f8ce685a6790b7305c03a5e32a1a78f6000d2ebffe427ebd0c37f1c14ac5265cf09760b12c076dddb542a0151c03bdd63259d0cecae8207109106aa16695/support/installer
+  - Installing heroku-sys/php (7.2.1)
+Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Enabling heroku-sys/ext-gettext (bundled with heroku-sys/php)
+
+  - Installing heroku-sys/apache (2.4.29)
+Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing heroku-sys/nginx (1.8.1)
+Downloading (connecting...)Downloading (0%)           Downloading (20%)Downloading (45%)Downloading (55%)Downloading (65%)Downloading (75%)Downloading (85%)Downloading (95%)Downloading (100%)
+Writing lock file
+Generating autoload files
